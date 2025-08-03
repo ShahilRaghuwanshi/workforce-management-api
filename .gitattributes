@@ -1,0 +1,9 @@
+# Ignore HTML, JS, CSS from language statistics
+*.html linguist-generated
+*.js linguist-generated
+*.css linguist-generated
+
+# Ignore docs and build folders if they contain frontend files
+/docs/** linguist-generated
+/build/** linguist-generated
+/target/** linguist-generated
